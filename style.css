@@ -7,6 +7,11 @@ body {
   color: #333;
   line-height: 1.6;
 }
+body.dark-mode
+{
+  background-color: #121212;
+  color: #f0f0f0;
+}
 
 /* Header */
 header {
@@ -63,6 +68,39 @@ nav a:hover {
 }
 
 /* Contact section */
-#contact {
+#contact 
+{
   max-width: 800px;
   margin: 40px auto;
+}
+
+
+/*For Dark Mode*/
+
+body.dark-mode header 
+{
+  background-color: #1e1e1e;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode header p {
+  color: #bbbbbb;
+}
+
+body.dark-mode nav {
+  background-color: #2a2a2a;
+}
+
+body.dark-mode nav a {
+  color: #f0f0f0;
+}
+
+body.dark-mode .card {
+  background-color: #1c1c1c;
+  color: #f0f0f0;
+  box-shadow: 0 4px 14px rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode #contact {
+  color: #f0f0f0;
+}
